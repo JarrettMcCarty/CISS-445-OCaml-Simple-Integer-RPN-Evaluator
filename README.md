@@ -1,6 +1,6 @@
 # Simple RPN Evaluator
 
-Very simple Reverse polish Notation evaluator using OCaml. The implementation uses a custom "linked list" type to build to Stack for calculating the output.
+Very simple Reverse polish Notation evaluator using OCaml. The implementation uses a custom "linked list" type to build the Stack for calculating the output.
 
 Simple parse function that takes in a reverse polish notation string and builds a "linked list" from it. 
 
