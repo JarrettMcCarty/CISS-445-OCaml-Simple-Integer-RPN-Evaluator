@@ -1,6 +1,6 @@
 # Simple RPN Evaluator
 
-Very simple Reverse polish Notation evaluator using OCaml. The implementation uses a custom "linked list" type to build the Stack for calculating the output.
+Very simple Reverse polish Notation evaluator using OCaml. The implementation uses a custom "linked list" type to build the Stack for calculating the output. Note that the only type allowed is integer.
 
 Simple parse function that takes in a reverse polish notation string and builds a "linked list" from it. 
 
@@ -11,3 +11,4 @@ Note this is very simple and needs work to be more efficent.
 TODO: 
   * Add checks to prompt user if input is not a rpn string
   * Clean up repeatitiveness of certain parts of the code in "eval_rpn"/"parse"
+  * Allow parentheses and other types (not just integer)
